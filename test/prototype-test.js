@@ -590,7 +590,7 @@ describe("PROTOTYPES", () => {
       })
     });
 
-    it.skip("modulesPerTeacher", () => {
+    it("modulesPerTeacher", () => {
       const e = turingPrompts.modulesPerTeacher();
 
       expect(e).to.deep.equal({
